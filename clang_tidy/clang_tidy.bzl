@@ -39,6 +39,8 @@ def _run_tidy(
 
     args.add("--export-fixes", outfile.path)
 
+    args.add("--quiet")
+
     # add source to check
     args.add(infile.path)
 
